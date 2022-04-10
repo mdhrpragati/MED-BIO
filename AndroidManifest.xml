@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rishika.myapplication">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="MedBio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddActivity"
+            android:label="Add Plants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ViewPlants"
+            android:label="Plants List"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailActivity"
+            android:label="Plants Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MedicinalPlants"
+            android:label="Medicinal Plants"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AboutUs"
+            android:label="About Us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PlantsDetail"
+            android:label="Plants Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Family"
+            android:label="Family"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".FamilyDescription"
+            android:label="Family Description"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ViewFamily"
+            android:label="Family List"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".PlantsInFamily"
+            android:label="Plants List"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AddPlants"
+            android:label="Plants Database"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
